@@ -1,0 +1,49 @@
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  background-color: #000000;
+  min-height: 100vh;
+}
+
+@media screen and (min-width: 600px) {
+  .primeVideo-img {
+    width: 100%;
+    background-size: cover;
+  }
+  .movie-heading {
+    color: #ffffff;
+    font-family: roboto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .primeVideo-img {
+    width: 100%;
+    background-size: cover;
+  }
+  .movie-heading {
+    color: #ffffff;
+    font-family: roboto;
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 725px) {
+  .movie-heading {
+    color: #ffffff;
+    font-family: roboto;
+    font-size: 15px;
+  }
+}
+
+.movie-heading {
+  font-family: roboto;
+}
+
+.movies-container {
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+}
